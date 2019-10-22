@@ -14,7 +14,7 @@ import java.util.*;
 public class Four {
 
     public static void main(String[] args) throws IOException {
-        StringBuffer sb = getBufferedReader("C:\\Users\\LFool\\Desktop\\software\\WF\\out\\file\\test.txt");
+        StringBuffer sb = getBufferedReader(args[2]);
         sentenceCountOnSb(sb, Integer.valueOf(args[1]));
         // sentenceCountOnSb(sb, 3);
     }

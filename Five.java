@@ -12,7 +12,7 @@ public class Five {
 
     public static void main(String[] args) throws IOException {
 
-        StringBuffer sb = getBufferedReader("file\\test.txt");
+        StringBuffer sb = getBufferedReader(args[2]);
         List<List<String>> verbList = getVerbList(args[1]);
         wordCountOnSb(sb, verbList);
     }
